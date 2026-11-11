@@ -80,7 +80,7 @@ function recordDelivery(event) {
 if (deliveryForm) {
     deliveryForm.addEventListener('submit', recordDelivery);
 }
-// Get search input, count message and all route sections
+
 const search = document.querySelector('#route-search');
 const routeCount = document.querySelector('#route-count');
 const routeSections = document.querySelectorAll('main section');

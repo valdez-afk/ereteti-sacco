@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Apply for membership - Ereteti Dairy Sacco</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Apply for Membership</h1>
-        <p>Milk collected twice a day, on three routes out of Ngong.</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="routes.html">Our Routes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="register.html">Join</a></li>
-            <li><a href="deliveries.html">Deliveries</a></li>
-        </ul>
-    </nav>
+<?php $page_title = 'Apply for membership';
+include 'includes/header.php'; ?>
+
     <main>
         <p>Any dairy farmer within reach of one of our three routes may apply to join Ereteti. You will need your national ID number and a phone we can reach you on. Once your membership number is isssued you may deliver from that day, and you are paid once a month for the litres we accept. </p>
-        <form action="#" method="post"><!--creates a form for users to fill out -->
+        
+        <form action="process-register.php" method="post"><!--creates a form for users to fill out -->
         <fieldset><!--Groups applicants details together-->
             <legend>Your Details</legend><!--Gives the fieldset a title-->
             <label for="first-name">First name</label><!--Creates a label for the first name input field-->
@@ -54,9 +34,4 @@
         <button type="submit">Apply to join</button><!--Creates a submit button for the form-->
         </form>
     </main>
-    <footer>
-        <p>Ereteti Dairy Sacco, PO Box 4021, Ngong</p>
-        <p>Built by Valdez Ogeta, 227635, DBT 1305</p>
-    </footer>
-</body>
-</html>
+      <?php include 'includes/footer.php'; ?>

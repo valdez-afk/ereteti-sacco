@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>About us - Ereteti Sacco</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>About Ereteti Sacco</h1>
-            <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="routes.html">Our Routes</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="register.html">Join</a></li>
-                <li><a href="deliveries.html">Deliveries</a></li>
-            </ul>
-        </nav>
+<?php $page_title = 'About the Sacco';
+include 'includes/header.php'; ?>
+
         <main>
             <section>
                 <h2>Nine farmers and one cooler</h2>
@@ -35,9 +14,5 @@
             </blockquote>
             <p>Mary sankale, chairperson</p><!--identifies who gave the quotation-->
         </main>
-        <footer>
-            <p>Ereteti Dairy Sacco, PO Box 4021, Ngong</p>
-            <p>Built by Valdez Ogeta, 227635, DBT 1305</p>
-        </footer>
-    </body>
-</html>
+        
+          <?php include 'includes/footer.php'; ?>

@@ -6,6 +6,7 @@
   <title><?php echo $page_title; ?> - Ereteti Dairy Sacco</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
   <!-- placeholder: swap for img/favicon.png -->
   <link rel="icon" type="img/png" href="/img/favicon-edairy.png">
 </head>

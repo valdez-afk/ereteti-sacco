@@ -58,22 +58,15 @@ const deliveryForm = document.querySelector('#delivery-form');
 const formMessage = document.querySelector('#form-message');
 
 function recordDelivery(event) {
-    event.preventDefault();
-
     checkMember();
     checkLitres();
 
     if (member.classList.contains('invalid')) {
+        event.preventDefault();
         member.focus();
-
     } else if (litres.classList.contains('invalid')) {
+        event.preventDefault();
         litres.focus();
-
-    } else {
-        formMessage.textContent =
-            'Checked: ' + member.value + ', ' +
-            litres.value + ' litres. Nothing is sent yet: ' +
-            'that needs a server.';
     }
 }
 

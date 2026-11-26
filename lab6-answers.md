@@ -1,0 +1,4 @@
+Question 1 - browser checks member number first because it gives quick feedback to the user.But the browser validation can be bypassed, for exammple, by disabling javascript or submitting request directly.
+Question 2 -  i is integer value is($farmer['farmer_id']), s is string value is($date), s is string value is($session), d is double value is($litres)
+Question 3 - Edit: opens a page where you cn view and change delivery details. Delete: removes a record from the database.
+Question 4 - page shows no deliveries because the prepared statement treats the entered text as a date value not SQL code.
